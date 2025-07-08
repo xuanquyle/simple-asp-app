@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zDIKTEGI8XABt5fIJ7BNLYh/j5QMi1sI3ObxnJcBex8=",
+  "Source": "DockerComposeApi",
+  "BasePath": "_content/DockerComposeApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

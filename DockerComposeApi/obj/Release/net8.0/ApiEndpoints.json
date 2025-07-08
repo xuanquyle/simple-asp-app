@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "DockerComposeApi.Controllers.DockerCommandController",
+    "Method": "Get",
+    "RelativePath": "api/dockercommand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DockerComposeApi.DockerCommand, DockerComposeApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DockerComposeApi.Controllers.DockerCommandController",
+    "Method": "Create",
+    "RelativePath": "api/dockercommand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dockerCommandVO",
+        "Type": "DockerComposeApi.DockerCommandVO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DockerComposeApi.DockerCommand, DockerComposeApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
